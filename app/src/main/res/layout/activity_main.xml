@@ -13,6 +13,17 @@
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:text="Hello I am not Lina"
+          android:id="@+id/textView2"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="同事B很不开心"
+          android:layout_alignParentBottom="true"
+          android:layout_toRightOf="@+id/textView2"
+          android:layout_toEndOf="@+id/textView2"/>
           android:text="HelloLina"/>
 
       <TextView
